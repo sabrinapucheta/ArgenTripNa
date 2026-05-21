@@ -1,0 +1,16 @@
+:root {
+    /* Colores Principales */
+    --color-principal: #DDA15E;      /* Amarillo mostaza / arena */
+    --color-acento: #00878A;         /* Turquesa oscuro (Suscripción/Buscar) */
+    --color-llamado-accion: #E65F19; /* Naranja vibrante (Ver más/Paginación) */
+    
+    /* Fondos y Superficies */
+    --color-fondo: #FBF7EE;          /* Blanco crema suave */
+    --color-tarjeta: #FFFFFF;        /* Blanco puro para las tarjetas */
+    --color-publicidad: #EAE3D2;     /* Gris arena para el banner */
+    
+    /* Texto */
+    --color-texto-oscuro: #262626;   /* Negro carbón para lectura */
+    --color-texto-claro: #FFFFFF;    /* Blanco para texto sobre botones */
+}
+/* Tipografia Josefin Sans  */
