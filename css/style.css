@@ -19,3 +19,15 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.card-glass {
+    background-color: rgba(255, 255, 255, 0.93) !important;
+    backdrop-filter: blur(8px);
+}
+
+.zoom-img {
+    transition: transform 0.4s ease-in-out;
+}
+.zoom-img:hover {
+    transform: scale(1.07);
+}
