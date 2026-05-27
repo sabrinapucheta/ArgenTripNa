@@ -1,45 +1,185 @@
 <!doctype html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Destinos Turísticos</title>
-</head>
-<body class="fondo">
+  </head>
+  <body class="fondo">
     <main class="container my-5">
-        <section class="mb-5">
-  <div class="p-4 rounded-4 shadow-sm card-glass">
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-      <div class="row align-items-center">
-        <div class="col-1 text-center">
-          <button class="carousel-control-prev position-static d-inline-block w-auto text-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1)"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-        </div>
-        <div class="col-10">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row g-3">
-                <div class="col-md-4"><div class="position-relative overflow-hidden rounded-3 shadow-sm"><img src="../img/bariloche.jpg.jpeg" class="d-block w-100 object-fit-cover zoom-img" style="height: 220px" alt="Cuba"><div class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-70 p-3 text-white"><h5 class="m-0 fs-6 fw-normal">Ruta por la Habana Vieja</h5></div></div></div>
-                <div class="col-md-4"><div class="position-relative overflow-hidden rounded-3 shadow-sm"><img src="../img/brasil.jpg.jpeg" class="d-block w-100 object-fit-cover zoom-img" style="height: 220px" alt="Atacama"><div class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-70 p-3 text-white"><h5 class="m-0 fs-6 fw-normal">Aventuras en el Desierto</h5></div></div></div>
-                <div class="col-md-4"><div class="position-relative overflow-hidden rounded-3 shadow-sm"><img src="../img/buenos aires.jpg.jpeg" class="d-block w-100 object-fit-cover zoom-img" style="height: 220px" alt="Florencia"><div class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-70 p-3 text-white"><h5 class="m-0 fs-6 fw-normal">Atardeceres en Florencia</h5></div></div></div>
+      <section class="mb-5">
+        <div class="p-4 rounded-4 shadow-sm card-glass">
+          <div
+            id="carouselExample"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="row align-items-center">
+              <div class="col-1 text-center">
+                <button
+                  class="carousel-control-prev position-static d-inline-block w-auto text-dark"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                    style="filter: invert(1)"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+              </div>
+              <div class="col-10">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row g-3">
+                      <div class="col-md-4">
+                        <div
+                          class="position-relative overflow-hidden rounded-3 shadow-sm"
+                        >
+                          <img
+                            src="../img/bariloche.jpg.jpeg"
+                            class="d-block w-100 object-fit-cover zoom-img"
+                            style="height: 220px"
+                            alt="Cuba"
+                          />
+                          <div
+                            class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-70 p-3 text-white"
+                          >
+                            <h5 class="m-0 fs-6 fw-normal">
+                              Ruta por la Habana Vieja
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div
+                          class="position-relative overflow-hidden rounded-3 shadow-sm"
+                        >
+                          <img
+                            src="../img/brasil.jpg.jpeg"
+                            class="d-block w-100 object-fit-cover zoom-img"
+                            style="height: 220px"
+                            alt="Atacama"
+                          />
+                          <div
+                            class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-70 p-3 text-white"
+                          >
+                            <h5 class="m-0 fs-6 fw-normal">
+                              Aventuras en el Desierto
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div
+                          class="position-relative overflow-hidden rounded-3 shadow-sm"
+                        >
+                          <img
+                            src="../img/buenos aires.jpg.jpeg"
+                            class="d-block w-100 object-fit-cover zoom-img"
+                            style="height: 220px"
+                            alt="Florencia"
+                          />
+                          <div
+                            class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-70 p-3 text-white"
+                          >
+                            <h5 class="m-0 fs-6 fw-normal">
+                              Atardeceres en Florencia
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1 text-center">
+                <button
+                  class="carousel-control-next position-static d-inline-block w-auto text-dark"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                    style="filter: invert(1)"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-1 text-center">
-          <button class="carousel-control-next position-static d-inline-block w-auto text-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1)"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+      </section>
+      <div class="container my-5">
+        <div class="row g-4">
+          <div class="col-12 col-lg-8" id="blog-content">
+            <h2 class="mb-4 fw-bold" style="color: var(--color-principal)">
+              ÚLTIMAS ENTRADAS
+            </h2>
+            <div
+              class="card border-0 shadow-sm p-3 my-3 card-hover"
+              style="
+                border-radius: 15px;
+                background-color: rgba(255, 255, 255, 0.93);
+              "
+            >
+              <div class="row g-0 align-items-center">
+                <div class="col-md-4">
+                  <img
+                    src="../img/bariloche.jpg.jpeg"
+                    class="img-fluid rounded-3"
+                    alt="Bariloche"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">
+                      Aventura y Nieve en Bariloche
+                    </h5>
+                    <p class="card-text text-muted small">
+                      Descubre las mejores actividades de aventura y nieve en
+                      Bariloche.
+                    </p>
+                    <a
+                      href="#"
+                      class="btn text-white"
+                      style="background-color: #008080"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-2 mt-4">
+              <a
+                class="btn text-white border-0 py-2 px-3"
+                href="#"
+                style="background-color: #008080; border-radius: 5px"
+                >1</a
+              >
+              <a
+                class="btn text-white border-0 py-2 px-3"
+                href="#"
+                style="background-color: #008080; border-radius: 5px"
+                >Siguiente</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-lg-4 d-flex flex-column gap-4"
+            id="sidebar"
+          ></div>
         </div>
       </div>
-    </div>
-  </div>
-</section></main>
+    </main>
     <script src="../js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
