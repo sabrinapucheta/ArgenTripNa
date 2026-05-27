@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main class="bg-main">
+      <h1 class="text-center color-title">El maravilloso teatro Colon</h1>
+      <!-- video del colon -->
+      <div class="container">
+        <div>
+          <div>
+            <video controls autoplay class="w-100">
+              <source src="../img/videoColon.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+      <!-- info del colon -->
+      <div class="container">
+        <p>
+          El Teatro Colón de Buenos Aires está considerado como uno de los cinco
+          mejores teatros de ópera del mundo. Esto se debe a dos elementos
+          fundamentales: su excelente diseño acústico y su elevado nivel
+          arquitectónico.
+        </p>
+      </div>
+      <div class="container">
+        <p>
+          Luciano Pavarotti consideraba que el Teatro Colón tenía un "grandísimo
+          defecto": su acústica era perfecta.
+        </p>
+      </div>
+      <!-- imagenes del colon -->
+      <div class="container">
+        <div class="row p-2">
+          <div class="col">
+            <img
+              src="../img/Colon1.jpg"
+              alt="fachada teatro colon"
+              class="w-100 object-fit-cover"
+              style="height: 150px"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="../img/Colon2.jpg"
+              alt="pasillo primer piso"
+              class="w-100 object-fit-cover"
+              style="height: 150px"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="../img/Colon3.jpg"
+              alt="sala de entre bloques"
+              class="w-100 object-fit-cover"
+              style="height: 150px"
+            />
+          </div>
+        </div>
+        <div>
+          <ul>
+            <li>
+              El Teatro Colón está ubicado entre las calles Cerrito, Viamonte,
+              Tucumán y Libertad, en pleno centro porteño. Pero no siempre
+              estuvo ahí. El edificio actual reemplaza al antiguo Teatro Colón
+              de Buenos Aires, erigido en la manzana que hoy ocupa el Banco
+              Nación, frente a la Plaza de Mayo. Ese fue el primer Teatro Colón.
+              Funcionó entre 1857 y 1888.
+            </li>
+            <li>
+              El actual edificio se inauguró el 25 de mayo de 1908. Su
+              construcción demoró 20 años. Para su estreno, las autoridades del
+              teatro eligieron representar “Aida”, de Giuseppe Verdi. La ópera
+              fue un desastre. Pero un desastre a propósito: en ésa época, se
+              creía que inaugurar un teatro traía mala suerte, por lo que los
+              encargados de hacerlo fueron integrantes de un elenco de segunda
+              mano, que realizaron una pésima interpretación.
+            </li>
+            <li>
+              El presidente Marcelo T. de Alvear fue el encargado de imponer la
+              estricta puntualidad del Colón. Al parecer, Alvear era un asiduo
+              concurrente al teatro. Hasta el año 1926, el público no era
+              demasiado puntual, lo cual disgustaba al Presidente. Entonces,
+              antes de cada función, Alvear se paraba y seguía con la mirada, a
+              través de sus binoculares, a quien haya llegado tarde. Otros
+              espectadores lo imitaron, incomodando a los impuntuales. Y así
+              corrigieron la costumbre.
+            </li>
+            <li>
+              Entre 2003 y 2010, el Colón fue restaurado. Trabajaron 1500
+              personas para recuperar los 60.000 m2 del teatro. El Gobierno
+              porteño invirtió $340 millones en las obras. Y el gran desafío fue
+              preservar la acústica, considerada como una de las mejores del
+              mundo. Había mucho en juego, así que se organizó una función
+              privada, antes de su reapertura al público el 13 de mayo de 2010,
+              para ver si las obras habían salido bien. Por suerte para sus
+              restauradores, así fue.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <!-- comentarios recibidos -->
+         <div>
+          <div class="comentarios-eb"> <p>Me parece que voy a viaja r a bsas!</p></div>
+          <div class="comentarios-eb"><p> lindos datos!=)</p></div>
+          <div class="comentarios-eb"><p>apestan!</p></div>
+          <div class="comentarios-eb">cuanto sale la entrada?</div>
+          <div class="comentarios-eb">sabian que el tatro fue contruido por 5 arquitectos porq morian al tiempo de empezar el proyecto?</div>
+         </div>
+        <!-- formulario de contracto/comentario -->
+        <form class="form-eb">
+          <h4 class="color-title">Dejanos tu comentario</h4>
+          <div>
+            <label for="nombreapellido"> Nombre y apellido * </label>
+            <input class="input-eb"
+              type="text"
+              minlength="2"
+              maxlength="12"
+              placeholder="juan perez"
+              required
+              id="nombreapellido"
+            />
+          </div>
+          <div>
+            <label for="correo">Correo</label>
+            <input class="input-eb" type="email" placeholder="correo" required id="correo" />
+          </div>
+          <div>
+            <label for="telefono">Telefono</label>
+            <input class="input-eb" type="tel" placeholder="0351-5121212" id="telefono" />
+          </div>
+          <div>
+            <label for="provincia">Provincia</label>
+            <select class="select-eb" id="provincia">
+              <option value="">seleccione</option>
+              <option value="cba">cba</option>
+              <option value="bsas">bsas</option>
+              <option value="jujuy">jujuy</option>
+            </select>
+          </div>
+          <div>
+            <label>Contanos que opinas? Que info queres encontrar? </label>
+            <textarea class="textarea-eb" required id="consulta" rows="4" cols="50"> </textarea>
+          </div>
+
+          <button class="button-eb" type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
