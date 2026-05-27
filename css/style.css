@@ -43,3 +43,11 @@
 .btn[style*="background-color: #008080"]:hover {
     background-color: #e65c00 !important;
 }
+
+.ad-hover {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.ad-hover:hover {
+    transform: scale(1.03);
+    filter: contrast(1.08) brightness(1.03);
+}
