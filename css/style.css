@@ -12,6 +12,31 @@
   --color-fondo: #fbf7ee;
 }
 
+.hover-card {
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+      }
+      .hover-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+      }
+      .hover-box-flotante {
+        transition:
+          transform 0.3s ease,
+          background-color 0.3s ease;
+      }
+      .hover-box-flotante:hover {
+        transform: scale(1.02);
+        background-color: rgba(255, 255, 255, 0.95) !important;
+      }
+      .btn-hover-effect {
+        transition: all 0.2s ease;
+      }
+      .btn-hover-effect:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+      }
 /* ... (Tus clases .fondo, .card-glass, .zoom-img, .card-hover, etc. se mantienen igual) ... */
 
 .estacion-wrapper {
