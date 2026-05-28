@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Destinos Turísticos</title>
+  </head>
+  <body>
+    <main>
+      <div
+        class="modal fade"
+        id="ModalSuscripcion"
+        tabindex="-1"
+        aria-labelledby="ModalSuscripcionLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="ModalSuscripcionLabel">
+                Suscribirse a ArgenTripNa
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <label class="largo-texto" for="usuario"
+                  >Nombre de Usuario *</label
+                >
+                <input
+                  type="text"
+                  minlength="2"
+                  maxlength="30"
+                  placeholder="Ej:Alex4510"
+                  required
+                  id="usuario"
+                />
+              </div>
+              <div class="container">
+                <label class="largo-texto" for="email">Mail *</label>
+                <input
+                  type="email"
+                  placeholder="Ej: Alex1090@gmail.com"
+                  required
+                  id="email"
+                />
+              </div>
+              <div class="container">
+                <label class="largo-texto" for="Contraseña">Contraseña *</label>
+                <input
+                  type="password"
+                  minlength="2"
+                  maxlength="50"
+                  placeholder="Ej:*******"
+                  id="Contraseña"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary mt-2">
+                Suscribirse
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
