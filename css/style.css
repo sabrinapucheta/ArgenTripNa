@@ -215,6 +215,10 @@ h1{
   object-fit: cover; 
 }
 
+nav{
+  background-color: #DDA15E;
+}
+
 figure {
   border-radius: 15px;
   overflow: hidden;
@@ -281,4 +285,8 @@ figure {
   body {
     color:#262626;
   }
+}
+
+.largo-texto{
+  width: 100%;
 }

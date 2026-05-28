@@ -1,107 +1,129 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Galeriablog" />
-    <meta name="author" content="" />
-    <link rel="stylesheet" href="../index.html" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../pages/contacto.html">
+    <meta name="author" content="Hernan Evis" />
+    <!-- Nota: Al estar en una subcarpeta, debes salir un nivel para encontrar la carpeta css -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <title>Galeria</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Contacto - ArgenTripNA</title>
   </head>
   <body>
-    <nav></nav>
-    <section>
-      <h1>Tu proximo destino</h1>
-    </section>
-    <section class="galeria">
-      <figure>
-        <img src="../img/bariloche.jpg.jpeg" alt="bariloche" />
+    <header class="sticky-top">
+      <nav class="navbar nav-bg navbar-expand-lg">
+        <div class="container">
+          <!-- Salimos con ../ para volver a la raíz -->
+          <a href="../index.html" class="navbar-brand">ArgenTripNA</a>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#opcionesMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="opcionesMenu">
+            <ul class="navbar-nav ms-auto">
+              <!-- Enlaces corregidos para estar dentro de 'pages' -->
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-success" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-outline-success active"
+                  href="./galeria.html"
+                  >Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-outline-success"
+                  href="./contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-outline-success"
+                  href="./nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-success" href="./login.html"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <figcaption>
-          <h5 class="card-text">Bariloche</h5>
-          <cite title="Source Title"> Aventuras en la Patagonia.</cite>
-        </figcaption>
-      </figure>
+    <main class="container my-5"></main>
 
-      <figure>
-        <img src="../img/brasil.jpg.jpeg" alt="brasil" />
-        <figcaption>
-          <h5 class="card-text">Brasil</h5>
-          <cite title="source title">Playas tropicales y agua cristalina.</cite>
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          src="../img/buenos aires.jpg.jpeg"
-          class="img.alta"
-          alt="buenos aires"
-        />
-        <figcaption>
-          <h5 class="card-text">Buenos Aires</h5>
-          <cite title="source title"
-            >Arquitectura y ritmo de la gran ciudad.</cite
-          >
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../img/cerro de los siete colores.jpg.jpeg" alt="jujuy" />
-        <figcaption>
-          <h5 class="card-text">Cerro de los Siete Colores, Jujuy</h5>
-          <cite title="source title"
-            >Cerro de los siete colores, únicos en el norte de Jujuy.</cite
-          >
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../img/jujuy.jpg.jpeg" alt="jujuy2" />
-        <figcaption>
-          <h5 class="card-text">Jujuy</h5>
-          <cite title="source title"
-            >Jujuy - Paisajes andinos y cultura histórica.</cite
-          >
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../img/mendoza.jpg.jpeg" alt="mendoza" />
-        <figcaption>
-          <h5 class="card-text">Mendoza</h5>
-          <cite title="source title">Viñedos al pie de la Cordillera.</cite>
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../img/necochea.jpg.jpeg" alt="necochea" />
-        <figcaption>
-          <h5 class="card-text">Necochea</h5>
-          <cite title="source title">Extensas playas junto al Atlántico.</cite>
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../img/neuquen.jpg.jpeg" alt="neuquen" />
-        <figcaption>
-          <h5 class="card-text">Neuquen</h5>
-          <cite title="source title">Ríos, lagos y naturaleza pura.</cite>
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../img/san martin de los andes.jpg.jpeg" alt="san martin" />
-        <figcaption>
-          <h5 class="card-text">San Martin de los Andes</h5>
-          <cite title="source title"
-            >Mendoza, una postal típica de la Patagonia.</cite
-          >
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../img/tucuman.jpg.jpeg" alt="tucuman" />
-        <figcaption>
-          <h5 class="card-text">Tucuman</h5>
-          <cite title="source title">Naturaleza y verde en las yungas.</cite>
-        </figcaption>
-      </figure>
-    </section>
-    <footer></footer>
+    <footer class="bg-dark text-light py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5 class="text-warning">CheckInMundo</h5>
+            <p>
+              Tu guía definitiva para explorar los destinos más increíbles del
+              mundo. Viaja, explora y vive experiencias únicas.
+            </p>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <h5 class="text-warning">Explora</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="../pages/galeria.html"
+                  class="text-light text-decoration-none"
+                  >Galería</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/nosotros.html"
+                  class="text-light text-decoration-none"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/contacto.html"
+                  class="text-light text-decoration-none"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <h5 class="text-warning">Suscríbete</h5>
+            <p class="small">
+              Recibe tips de viajes directamente en tu correo.
+            </p>
+            <a
+              href="../pages/suscibirse.html"
+              class="btn btn-outline-success btn-sm"
+              >Suscribirme</a
+            >
+          </div>
+        </div>
+
+        <hr class="border-secondary" />
+
+        <div class="text-center small">
+          &copy; 2026 ArgenTripNA - Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Salimos con ../ para encontrar el JS -->
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>

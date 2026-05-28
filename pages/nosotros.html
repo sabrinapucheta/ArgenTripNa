@@ -3,67 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hernan Evis" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Destinos Turísticos</title>
+    <title>Nosotros - ArgenTripNA</title>
   </head>
-  <body class="fondo">
-    <main class="separacion-texto">
-      <h1 class="text-center fw-semibold pt-4">Nosotros somos ArgenTripNa</h1>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar nav-bg navbar-expand-lg">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand">ArgenTripNA</a>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#opcionesMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="opcionesMenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-success" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-outline-success"
+                  href="./galeria.html"
+                  >Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-outline-success"
+                  href="./contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active btn btn-outline-success"
+                  href="./nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-success" href="./login.html"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-5"></main>
+
+    <footer class="bg-dark text-light py-4 mt-5">
       <div class="container">
-        <div class="nos-div">
-          <p class="letra-nos letras-nos-media letras-nos-somos">
-            Bienvenido a nuestra comunidad de viajeros. Nosotros somos
-            ArgenTripNa una empresa nacida de la pasión por recorrer cada rincón
-            de la Argentina, desde la inmensidad de la Patagonia hasta los
-            colores del Norte, uniendo la riqueza de nuestros paisajes con lo
-            último en tecnología para ofrecerte la mejor experiencia de viaje.
-          </p>
-          <p class="letra-nos letras-nos-media letras-nos-somos">
-            Creemos que viajar es transformar realidades, y que planificar tu
-            próxima aventura debe ser tan placentero como el viaje mismo. Por
-            eso creamos una plataforma digital robusta, ágil y segura para que
-            tengas el país al alcance de un clic.
-          </p>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5 class="text-warning">CheckInMundo</h5>
+            <p>
+              Tu guía definitiva para explorar los destinos más increíbles del
+              mundo. Viaja, explora y vive experiencias únicas.
+            </p>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <h5 class="text-warning">Explora</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="../pages/galeria.html"
+                  class="text-light text-decoration-none"
+                  >Galería</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/nosotros.html"
+                  class="text-light text-decoration-none"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/contacto.html"
+                  class="text-light text-decoration-none"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <h5 class="text-warning">Suscríbete</h5>
+            <p class="small">
+              Recibe tips de viajes directamente en tu correo.
+            </p>
+            <a
+              href="../pages/suscibirse.html"
+              class="btn btn-outline-success btn-sm"
+              >Suscribirme</a
+            >
+          </div>
         </div>
-        <div class="nos-divtitulo">
-          <h2 class="text-center fw-semibold pt-2 pb-2">Nuestro Objetivo</h2>
-        </div>
-        <div class="nos-divdos">
-          <p class="letra-nos letras-nos-media letras-nos-obj">
-            Conectar a viajeros locales e internacionales con las maravillas
-            ocultas y los destinos emblemáticos de Argentina, ofreciendo un
-            servicio personalizado respaldado por tecnología de punta y un
-            equipo humano comprometido.
-          </p>
-        </div>
-        <div class="nos-divtitulodos">
-          <h2 class="text-center fw-semibold pt-2 pb-2">Nuestra Vision</h2>
-        </div>
-        <div class="nos-divtres">
-          <p class="letra-nos letras-nos-media letras-nos-vis">
-            Ser la plataforma de viajes líder y de referencia en el país,
-            reconocida por su innovación tecnológica, la simplicidad de sus
-            servicios y la calidez en la atención al cliente.
-          </p>
-        </div>
-        <div>
-          <h1 class="text-center fw-semibold pt-4">
-            Equipo detras del proyecto
-          </h1>
-        </div>
-        <div class="div-nosotros">
-          <p class="letra-nos text-center">
-            Entre los integrantes que estan detras del trabajo del proyecto
-            ArgenTripNa son:
-          </p>
-          <p class="letra-nos text-center">
-            Samuel Gallardo (scrum) - Hernan Evis - Sabrina Pucheta - Hector
-            Alexander Rasgido - Sofía Correa - Agustin Nicolas Paz
-          </p>
+
+        <hr class="border-secondary" />
+
+        <div class="text-center small">
+          &copy; 2026 ArgenTripNA - Todos los derechos reservados.
         </div>
       </div>
-    </main>
+    </footer>
+
     <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
