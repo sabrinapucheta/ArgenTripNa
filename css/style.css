@@ -1,54 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 * {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 :root {
-    --color-principal: #DDA15E;
-    --color-acento: #00878A;
-    --color-llamado-accion: #E65F19;
-    --color-fondo: #FBF7EE;
+  --color-principal: #dda15e;
+  --color-acento: #00878a;
+  --color-llamado-accion: #e65f19;
+  --color-fondo: #fbf7ee;
 }
 
 .fondo {
-    background-image: url('../img/fondo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("../img/fondo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .card-glass {
-    background-color: rgba(255, 255, 255, 0.93) !important;
-    backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.93) !important;
+  backdrop-filter: blur(8px);
 }
 
 .zoom-img {
-    transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 .zoom-img:hover {
-    transform: scale(1.07);
+  transform: scale(1.07);
 }
 
 .card-hover {
-    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease;
+  transition:
+    transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 0.3s ease;
 }
 .card-hover:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
 }
 
 .btn[style*="background-color: #008080"]:hover {
-    background-color: #e65c00 !important;
+  background-color: #e65c00 !important;
 }
 
 .ad-hover {
-    transition: transform 0.3s ease, filter 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
 }
 .ad-hover:hover {
-    transform: scale(1.03);
-    filter: contrast(1.08) brightness(1.03);
+  transform: scale(1.03);
+  filter: contrast(1.08) brightness(1.03);
 }
 
+.tamaño-imagen-1 {
+  img {
+    width: 500px;
+    height: 500px;
+  }
+}
