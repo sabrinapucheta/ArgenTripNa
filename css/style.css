@@ -14,3 +14,24 @@
     --color-texto-claro: #FFFFFF;    /* Blanco para texto sobre botones */
 }
 /* Tipografia Josefin Sans  */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+main.container {
+    margin-top: 0 !important;
+}
+
+.btn-warning:hover {
+    background-color: #fd7e14 !important; 
+    border-color: #fd7e14 !important;
+    color: white !important; 
+}
+
+.transition-button {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
