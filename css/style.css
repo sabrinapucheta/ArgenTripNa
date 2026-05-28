@@ -21,7 +21,7 @@
   --color-texto-claro: #ffffff; /* Blanco para texto sobre botones */
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1199px) {  
   .nos-div {
     border-radius: 10px;
     background-color: var(--color-fondo);
@@ -58,9 +58,19 @@
     height: fit-content;
     margin-left: 75%;
   }
+  .letras-nos-somos {
+    text-align: center;
+  }
+
+  .letras-nos-obj {
+    text-align: start;
+  }
+  .letras-nos-vis {
+    text-align: end;
+  }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .nos-div {
     border-radius: 10px;
     background-color: var(--color-fondo);
@@ -97,6 +107,69 @@
     height: fit-content;
     margin-left: 75%;
   }
+
+  .letras-nos-somos {
+    text-align: center;
+  }
+
+  .letras-nos-obj {
+    text-align: start;
+  }
+  .letras-nos-vis {
+    text-align: end;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nos-div {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nos-divdos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+  }
+
+  .nos-divtres {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+  }
+
+  .nos-divtitulo {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 55%;
+    height: fit-content;
+    margin-left: 20%;
+  }
+
+  .nos-divtitulodos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 55%;
+    height: fit-content;
+    margin-left: 20%;
+  }
+
+  .letras-nos-media {
+    text-align: center;
+  }
+}
+
+.div-nosotros{
+border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
 }
 
 .letra-nos {
