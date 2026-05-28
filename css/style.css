@@ -177,3 +177,7 @@ border-radius: 10px;
   padding-inline-end: 15px;
   padding-top: 10px;
 }
+
+.separacion-texto{
+  line-height: 30px;
+}
