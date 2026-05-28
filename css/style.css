@@ -1,18 +1,10 @@
-:root {
-    /* Colores Principales */
-    --color-principal: #DDA15E;      /* Amarillo mostaza / arena */
-    --color-acento: #00878A;         /* Turquesa oscuro (Suscripción/Buscar) */
-    --color-llamado-accion: #E65F19; /* Naranja vibrante (Ver más/Paginación) */
-    
-    /* Fondos y Superficies */
-    --color-fondo: #FBF7EE;          /* Blanco crema suave */
-    --color-tarjeta: #FFFFFF;        /* Blanco puro para las tarjetas */
-    --color-publicidad: #EAE3D2;     /* Gris arena para el banner */
-    
-    /* Texto */
-    --color-texto-oscuro: #262626;   /* Negro carbón para lectura */
-    --color-texto-claro: #FFFFFF;    /* Blanco para texto sobre botones */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
 }
+<<<<<<< HEAD
 /* Tipografia Josefin Sans  */
 /* estilos pagina entradaBlog */
 .bg-main{
@@ -49,4 +41,258 @@ select, button {
   width: 100%;
   height: 70vh;
   object-fit: cover;
+=======
+
+:root {
+  /* Colores Principales */
+  --color-principal: #dda15e; /* Amarillo mostaza / arena */
+  --color-acento: #00878a; /* Turquesa oscuro (Suscripción/Buscar) */
+  --color-llamado-accion: #e65f19; /* Naranja vibrante (Ver más/Paginación) */
+
+  /* Fondos y Superficies */
+  --color-fondo: #fbf7ee; /* Blanco crema suave */
+  --color-tarjeta: #ffffff; /* Blanco puro para las tarjetas */
+  --color-publicidad: #eae3d2; /* Gris arena para el banner */
+
+  /* Texto */
+  --color-texto-oscuro: #262626; /* Negro carbón para lectura */
+  --color-texto-claro: #ffffff; /* Blanco para texto sobre botones */
+}
+
+@media screen and (min-width: 1199px) {  
+  .nos-div {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nos-divdos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+  }
+
+  .nos-divtres {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+    margin-left: 25%;
+  }
+
+  .nos-divtitulo {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 25%;
+    height: fit-content;
+  }
+
+  .nos-divtitulodos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 25%;
+    height: fit-content;
+    margin-left: 75%;
+  }
+  .letras-nos-somos {
+    text-align: center;
+  }
+
+  .letras-nos-obj {
+    text-align: start;
+  }
+  .letras-nos-vis {
+    text-align: end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nos-div {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nos-divdos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+  }
+
+  .nos-divtres {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+    margin-left: 25%;
+  }
+
+  .nos-divtitulo {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 30%;
+    height: fit-content;
+  }
+
+  .nos-divtitulodos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 25%;
+    height: fit-content;
+    margin-left: 75%;
+  }
+
+  .letras-nos-somos {
+    text-align: center;
+  }
+
+  .letras-nos-obj {
+    text-align: start;
+  }
+  .letras-nos-vis {
+    text-align: end;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nos-div {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nos-divdos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+  }
+
+  .nos-divtres {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+  }
+
+  .nos-divtitulo {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 55%;
+    height: fit-content;
+    margin-left: 20%;
+  }
+
+  .nos-divtitulodos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 55%;
+    height: fit-content;
+    margin-left: 20%;
+  }
+
+  .letras-nos-media {
+    text-align: center;
+  }
+}
+
+.div-nosotros{
+border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+}
+
+.letra-nos {
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  padding-top: 10px;
+}
+
+.separacion-texto{
+  line-height: 30px;
+}
+
+nav{
+  background-color: #DDA15E;
+}
+
+figure {
+  border-radius: 15px;
+  overflow: hidden;
+  filter: drop-shadow(0 0 10px  #00878A);
+  transition: 800ms;
+  img {
+    width: 100%;
+    height: 200px;
+    vertical-align: bottom;
+  object-position: center; /* Centra el enfoque del recorte */
+  }
+  figcaption {
+   h5{
+     font-family: josefin sans-serif;
+   }
+    background-color: var(--color-fondo);
+    padding: 25px;
+  }
+  &:hover{
+    position: relative;
+    bottom: 10px;
+     filter: drop-shadow(0 0 10px #00878A);
+  }
+}
+.img.alta{ 
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+} 
+
+@media (width >= 768px) { /*dispositivo medianos*/
+  /* aqui puedo crear una clase, o selc. de etiqueta o id */
+  .galeria {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  figure {
+    width: calc(33.33% - 15px);
+  }
+  figcaption{
+    height: 170px;
+  }
+}
+
+/* media querie para dispositivos grandes */
+@media screen and (width >= 1024px) {
+  .galeria {
+    justify-content: center;
+  }
+  figure {
+    width: calc(25% - 15px);
+  }
+}
+
+@media print {
+  .galeria {
+    flex-direction: row; 
+    flex-wrap: wrap;
+  }
+
+  figure {
+    width: calc(33.33% - 15px);
+  }
+  body {
+    color:#262626;
+  }
+}
+
+.largo-texto{
+  width: 100%;
+>>>>>>> feat/nosotros
 }
