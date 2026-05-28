@@ -1,17 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
 :root {
-    /* Colores Principales */
-    --color-principal: #DDA15E;      /* Amarillo mostaza / arena */
-    --color-acento: #00878A;         /* Turquesa oscuro (Suscripción/Buscar) */
-    --color-llamado-accion: #E65F19; /* Naranja vibrante (Ver más/Paginación) */
-    
-    /* Fondos y Superficies */
-    --color-fondo: #FBF7EE;          /* Blanco crema suave */
-    --color-tarjeta: #FFFFFF;        /* Blanco puro para las tarjetas */
-    --color-publicidad: #EAE3D2;     /* Gris arena para el banner */
-    
-    /* Texto */
-    --color-texto-oscuro: #262626;   /* Negro carbón para lectura */
-    --color-texto-claro: #FFFFFF;    /* Blanco para texto sobre botones */
+  /* Colores Principales */
+  --color-principal: #dda15e; /* Amarillo mostaza / arena */
+  --color-acento: #00878a; /* Turquesa oscuro (Suscripción/Buscar) */
+  --color-llamado-accion: #e65f19; /* Naranja vibrante (Ver más/Paginación) */
+
+  /* Fondos y Superficies */
+  --color-fondo: #fbf7ee; /* Blanco crema suave */
+  --color-tarjeta: #ffffff; /* Blanco puro para las tarjetas */
+  --color-publicidad: #eae3d2; /* Gris arena para el banner */
+
+  /* Texto */
+  --color-texto-oscuro: #262626; /* Negro carbón para lectura */
+  --color-texto-claro: #ffffff; /* Blanco para texto sobre botones */
+}
+
+@media screen and (min-width: 1199px) {  
+  .nos-div {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nos-divdos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+  }
+
+  .nos-divtres {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+    margin-left: 25%;
+  }
+
+  .nos-divtitulo {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 25%;
+    height: fit-content;
+  }
+
+  .nos-divtitulodos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 25%;
+    height: fit-content;
+    margin-left: 75%;
+  }
+  .letras-nos-somos {
+    text-align: center;
+  }
+
+  .letras-nos-obj {
+    text-align: start;
+  }
+  .letras-nos-vis {
+    text-align: end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nos-div {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nos-divdos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+  }
+
+  .nos-divtres {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+    margin-left: 25%;
+  }
+
+  .nos-divtitulo {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 30%;
+    height: fit-content;
+  }
+
+  .nos-divtitulodos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 25%;
+    height: fit-content;
+    margin-left: 75%;
+  }
+
+  .letras-nos-somos {
+    text-align: center;
+  }
+
+  .letras-nos-obj {
+    text-align: start;
+  }
+  .letras-nos-vis {
+    text-align: end;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nos-div {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nos-divdos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+  }
+
+  .nos-divtres {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+  }
+
+  .nos-divtitulo {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 55%;
+    height: fit-content;
+    margin-left: 20%;
+  }
+
+  .nos-divtitulodos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 55%;
+    height: fit-content;
+    margin-left: 20%;
+  }
+
+  .letras-nos-media {
+    text-align: center;
+  }
+}
+
+.div-nosotros{
+border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+}
+
+.letra-nos {
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  padding-top: 10px;
+}
+
+.separacion-texto{
+  line-height: 30px;
 }
 
 .largo-texto{
