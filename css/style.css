@@ -13,4 +13,12 @@
     --color-texto-oscuro: #262626;   /* Negro carbón para lectura */
     --color-texto-claro: #FFFFFF;    /* Blanco para texto sobre botones */
 }
-/* Tipografia Josefin Sans  */
+
+.largo-texto{
+  width: 100%;
+}
+
+.color-modal{
+  background-color: var(--color-tarjeta);
+  color: var(--color-texto-oscuro);
+}
