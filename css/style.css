@@ -1,16 +1,22 @@
-:root {
-    /* Colores Principales */
-    --color-principal: #DDA15E;      /* Amarillo mostaza / arena */
-    --color-acento: #00878A;         /* Turquesa oscuro (Suscripción/Buscar) */
-    --color-llamado-accion: #E65F19; /* Naranja vibrante (Ver más/Paginación) */
-    
-    /* Fondos y Superficies */
-    --color-fondo: #FBF7EE;          /* Blanco crema suave */
-    --color-tarjeta: #FFFFFF;        /* Blanco puro para las tarjetas */
-    --color-publicidad: #EAE3D2;     /* Gris arena para el banner */
-    
-    /* Texto */
-    --color-texto-oscuro: #262626;   /* Negro carbón para lectura */
-    --color-texto-claro: #FFFFFF;    /* Blanco para texto sobre botones */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
 }
-/* Tipografia Josefin Sans  */
+
+:root {
+  /* Colores Principales */
+  --color-principal: #dda15e; /* Amarillo mostaza / arena */
+  --color-acento: #00878a; /* Turquesa oscuro (Suscripción/Buscar) */
+  --color-llamado-accion: #e65f19; /* Naranja vibrante (Ver más/Paginación) */
+
+  /* Fondos y Superficies */
+  --color-fondo: #fbf7ee; /* Blanco crema suave */
+  --color-tarjeta: #ffffff; /* Blanco puro para las tarjetas */
+  --color-publicidad: #eae3d2; /* Gris arena para el banner */
+
+  /* Texto */
+  --color-texto-oscuro: #262626; /* Negro carbón para lectura */
+  --color-texto-claro: #ffffff; /* Blanco para texto sobre botones */
+}
