@@ -13,7 +13,12 @@
 }
 
 .fondo {
-    background-image: url('../img/fondo.png');
+    /* rgba(0, 0, 0, 0.4) 
+
+    */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                      url('../img/fondo.png');
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,3 +56,4 @@
     transform: scale(1.03);
     filter: contrast(1.08) brightness(1.03);
 }
+
