@@ -21,7 +21,7 @@
   --color-texto-claro: #ffffff; /* Blanco para texto sobre botones */
 }
 
-@media screen and (min-width: 1199px) {  
+@media screen and (min-width: 1199px) {
   .nos-div {
     border-radius: 10px;
     background-color: var(--color-fondo);
@@ -165,11 +165,11 @@
   }
 }
 
-.div-nosotros{
-border-radius: 10px;
-    background-color: var(--color-fondo);
-    width: 100%;
-    height: fit-content;
+.div-nosotros {
+  border-radius: 10px;
+  background-color: var(--color-fondo);
+  width: 100%;
+  height: fit-content;
 }
 
 .letra-nos {
@@ -178,7 +178,7 @@ border-radius: 10px;
   padding-top: 10px;
 }
 
-.separacion-texto{
+.separacion-texto {
   line-height: 30px;
 }
 
