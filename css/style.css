@@ -339,4 +339,21 @@ nav {
     filter: contrast(1.08) brightness(1.03);
 }
 
+.body-login{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.btn-warning:hover {
+    background-color: #fd7e14 !important; 
+    border-color: #fd7e14 !important;
+    color: white !important; 
+}
+
+.transition-button {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
 
