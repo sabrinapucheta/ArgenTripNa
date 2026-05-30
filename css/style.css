@@ -192,6 +192,11 @@ select,
 button {
   width: 106%;
 }
+.comentarios-eb {
+    border: 1px solid var(--color-principal);
+    padding: 10px;
+    margin: 10px;
+}
 
 /* estilos pagina error */
 
