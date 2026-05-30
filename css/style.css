@@ -164,7 +164,32 @@
     text-align: center;
   }
 }
-<<<<<<< HEAD
+/* estilos pagina entradaBlog */
+.bg-main{
+    background-color: var(--color-acento);
+}
+.color-title{
+    color: var(--color-principal);
+}
+.form-eb {
+    width: 300px;
+  margin: auto; 
+    margin-bottom: 30px;
+
+}
+
+.input-eb, .textarea-eb, .button-eb, .select-eb {
+    background-color: var(--color-principal);
+    width: 100%;
+    padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: 1px solid black;
+}
+select, button {
+    width: 106%;
+}
+
 /* estilos pagina error */
 
 .animacion-img-404{
@@ -179,7 +204,6 @@
 
     }
 }
-=======
 
 .div-nosotros {
   border-radius: 10px;
@@ -260,4 +284,3 @@ transition: color 0.3s ease; /* Esto hace que el cambio sea suave */
 .largo-texto{
   width: 100%;
 }
->>>>>>> 157a0df351798cba6f80dbc425feeaff59c8db92
