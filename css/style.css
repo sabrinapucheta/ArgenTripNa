@@ -165,44 +165,46 @@
   }
 }
 /* estilos pagina entradaBlog */
-.bg-main{
-    background-color: var(--color-acento);
+.bg-main {
+  background-color: var(--color-acento);
 }
-.color-title{
-    color: var(--color-principal);
+.color-title {
+  color: var(--color-principal);
 }
 .form-eb {
-    width: 300px;
-  margin: auto; 
-    margin-bottom: 30px;
-
+  width: 300px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
-.input-eb, .textarea-eb, .button-eb, .select-eb {
-    background-color: var(--color-principal);
-    width: 100%;
-    padding: 10px;
-margin-top: 10px;
-margin-bottom: 10px;
-border: 1px solid black;
+.input-eb,
+.textarea-eb,
+.button-eb,
+.select-eb {
+  background-color: var(--color-principal);
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
 }
-select, button {
-    width: 106%;
+select,
+button {
+  width: 106%;
 }
 
 /* estilos pagina error */
 
-.animacion-img-404{
-    animation: expansiva 3s linear 1;
+.animacion-img-404 {
+  animation: expansiva 3s linear 1;
 }
-@keyframes expansiva{
-    from{ transform: scale(1);
-
-    }
-    to{
-        transform: scale(1.5);
-
-    }
+@keyframes expansiva {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
 }
 
 .div-nosotros {
@@ -222,11 +224,11 @@ select, button {
   line-height: 30px;
 }
 
-.largo-texto{
+.largo-texto {
   width: 100%;
 }
 
-.color-modal{
+.color-modal {
   background-color: var(--color-tarjeta);
   color: var(--color-texto-oscuro);
 }
@@ -235,52 +237,54 @@ select, button {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  
 }
 
 nav {
   /* Color de respaldo (fallback) */
   background: #e87523;
-  
+
   /* Tu degradado específico */
-  background: linear-gradient(90deg, rgba(232, 117, 35, 1) 11%, rgba(240, 223, 74, 1) 78%);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 117, 35, 1) 11%,
+    rgba(240, 223, 74, 1) 78%
+  );
 }
 
 .navbar-brand {
-    font-weight: 800; /* Mucho más peso */
-    font-size: 1.6rem;
-    letter-spacing: 1px; /* Aire entre letras */
-    text-transform: uppercase; /* Opcional, le da autoridad */
-    color: var(--color-texto-claro) !important;
-    transition: transform 0.3s ease;
+  font-weight: 800; /* Mucho más peso */
+  font-size: 1.6rem;
+  letter-spacing: 1px; /* Aire entre letras */
+  text-transform: uppercase; /* Opcional, le da autoridad */
+  color: var(--color-texto-claro) !important;
+  transition: transform 0.3s ease;
 }
 
 .navbar-brand:hover {
-    transform: scale(1.05); /* Pequeño efecto al pasar el mouse */
+  transform: scale(1.05); /* Pequeño efecto al pasar el mouse */
 }
 
 .hover-naranja {
-    transition: color 0.3s ease; /* Esto hace que el cambio sea suave */
+  transition: color 0.3s ease; /* Esto hace que el cambio sea suave */
 }
 
 .hover-naranja:hover {
-    color: var(--color-llamado-accion) !important; /* O usa el código #E65F19 */
+  color: var(--color-llamado-accion) !important; /* O usa el código #E65F19 */
 }
 
-.hover-blanco{
-transition: color 0.3s ease; /* Esto hace que el cambio sea suave */
-
+.hover-blanco {
+  transition: color 0.3s ease; /* Esto hace que el cambio sea suave */
 }
 
 .hover-blanco:hover {
-    color: var(--color-tarjeta)
+  color: var(--color-tarjeta);
 }
 
-.btn-naranja{
-  btn{
-    color: #E65F19;
+.btn-naranja {
+  btn {
+    color: #e65f19;
   }
 }
-.largo-texto{
+.largo-texto {
   width: 100%;
 }
