@@ -15,15 +15,11 @@
 }
 /* Tipografia Josefin Sans  */
 
-body {
+.body-login{
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center; 
-}
-
-main.container {
-    margin-top: 0 !important;
 }
 
 .btn-warning:hover {
