@@ -18,19 +18,24 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  background: #FBF7EE;
   
 }
 h2{
   padding: 15px;
   text-align: center;
-  background: #FBF7EE;
-  font-family: Josefin sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 p{
-  
+  padding: 15px;
+  font-family: Josefin sans-serif;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto 30px;
 }
+
 .galeria {
-  background: #FBF7EE;
+  
   padding: 20px;
   margin-top: 15px;
   display: flex;
