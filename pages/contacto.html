@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="es">
   <head>
@@ -5,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Hernan Evis" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
+      <link rel="stylesheet" href="../css/contacto.css"
     <link rel="stylesheet" href="../css/style.css" />
     <title>Principal - ArgenTripNA</title>
   </head>
@@ -61,7 +63,54 @@
       </nav>
     </header>
 
-    <main class="container my-5"></main>
+  <main class="container py-5">
+     <div class="container">
+      <p class="eyebrow">ArgenTripNa</p>
+      <h1>Contáctanos</h1>
+      <p class="lead">¿Querés hacer una consulta, dejar una sugerencia o hablar con nosotros? Completa el formulario o visitanos en nuestra ubicación.</p>
+    </div>
+    <section class="row g-4 align-items-stretch">
+      <article class="col-lg-5">
+        <div class="contact-card">
+          <h2>Ubicación</h2>
+          <p class="mb-3">Estamos en:</p>
+          <p class="address-box"><strong>Av. de los Viajeros 123</strong><br>Tucuman, Argentina</p>
+          <p class="text-muted">Este mapa es un ejemplo para mostrar la ubicación de la empresa o del dueño del blog.</p>
+          <div class="map-box">
+            <iframe
+              src="https://www.google.com/maps?q=Tucuman%20Argentina&z=13&output=embed"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Mapa de ubicación de ArgenTripNa"></iframe>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-lg-7">
+        <div class="contact-card">
+          <h2>Formulario de contacto</h2>
+          <p class="mb-4">Escribinos y responderemos a la brevedad.</p>
+
+          <form class="contact-form">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nicolas Paz" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="nicopaz@gmail.com" required>
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto" placeholder="Consulta o sugerencia">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu mensaje" required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </article>
+    </section>
+  </main>
 
     <footer class="bg-dark text-light py-4 mt-5">
       <div class="container">
