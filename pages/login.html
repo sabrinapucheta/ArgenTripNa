@@ -111,6 +111,9 @@
               class="btn btn-outline-success hover-blanco"
               >Suscribirme</a
             >
+            <button class="btn btn-outline-success btn-sm" data-bs-toggle="modal" data-bs-target="#ModalSuscripcion">
+              <i class="bi bi-play-fill">Suscribirme</i>
+            </button>
           </div>
         </div>
 
@@ -120,8 +123,73 @@
           &copy; 2026 ArgenTripNA - Todos los derechos reservados.
         </div>
       </div>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Destinos Turísticos</title>
+  </head>
+  <body>
+    <main>
+      <div
+        class="modal fade"
+        id="ModalSuscripcion"
+        tabindex="-1"
+        aria-labelledby="ModalSuscripcionLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="ModalSuscripcionLabel">
+                Suscribirse a ArgenTripNa
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container pb-1 pt-1">
+                <label class="largo-texto" for="usuario"
+                  >Nombre de Usuario *</label
+                >
+                <input
+                  type="text"
+                  minlength="2"
+                  maxlength="30"
+                  placeholder="Ej:Alex4510"
+                  required
+                  id="usuario"
+                />
+              </div>
+              <div class="container pb-1 pt-1">
+                <label class="largo-texto" for="email">Mail *</label>
+                <input
+                  type="email"
+                  placeholder="Ej: Alex1090@gmail.com"
+                  required
+                  id="email"
+                />
+              </div>
+              <div class="container">
+                <label class="largo-texto" for="Contraseña">Contraseña *</label>
+                <input
+                  type="password"
+                  minlength="2"
+                  maxlength="50"
+                  placeholder="*************"
+                  id="Contraseña"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary mt-2">
+                Suscribirse
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-
     <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
