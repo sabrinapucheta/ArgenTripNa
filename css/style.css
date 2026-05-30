@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+:root {
+  /* Colores Principales */
+  --color-principal: #dda15e; /* Amarillo mostaza / arena */
+  --color-acento: #00878a; /* Turquesa oscuro (Suscripción/Buscar) */
+  --color-llamado-accion: #e65f19; /* Naranja vibrante (Ver más/Paginación) */
+
+  /* Fondos y Superficies */
+  --color-fondo: #fbf7ee; /* Blanco crema suave */
+  --color-tarjeta: #ffffff; /* Blanco puro para las tarjetas */
+  --color-publicidad: #eae3d2; /* Gris arena para el banner */
+
+  /* Texto */
+  --color-texto-oscuro: #262626; /* Negro carbón para lectura */
+  --color-texto-claro: #ffffff; /* Blanco para texto sobre botones */
+}
+
+@media screen and (min-width: 1199px) {
+  .nos-div {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nos-divdos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+  }
+
+  .nos-divtres {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+    margin-left: 25%;
+  }
+
+  .nos-divtitulo {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 25%;
+    height: fit-content;
+  }
+
+  .nos-divtitulodos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 25%;
+    height: fit-content;
+    margin-left: 75%;
+  }
+  .letras-nos-somos {
+    text-align: center;
+  }
+
+  .letras-nos-obj {
+    text-align: start;
+  }
+  .letras-nos-vis {
+    text-align: end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nos-div {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nos-divdos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+  }
+
+  .nos-divtres {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 75%;
+    height: fit-content;
+    margin-left: 25%;
+  }
+
+  .nos-divtitulo {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 30%;
+    height: fit-content;
+  }
+
+  .nos-divtitulodos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 25%;
+    height: fit-content;
+    margin-left: 75%;
+  }
+
+  .letras-nos-somos {
+    text-align: center;
+  }
+
+  .letras-nos-obj {
+    text-align: start;
+  }
+  .letras-nos-vis {
+    text-align: end;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nos-div {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nos-divdos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+  }
+
+  .nos-divtres {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+  }
+
+  .nos-divtitulo {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 55%;
+    height: fit-content;
+    margin-left: 20%;
+  }
+
+  .nos-divtitulodos {
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+    width: 55%;
+    height: fit-content;
+    margin-left: 20%;
+  }
+
+  .letras-nos-media {
+    text-align: center;
+  }
+}
+
+.div-nosotros {
+  border-radius: 10px;
+  background-color: var(--color-fondo);
+  width: 100%;
+  height: fit-content;
+}
+
+.letra-nos {
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  padding-top: 10px;
+}
+
+.separacion-texto {
+  line-height: 30px;
+}
+
+.largo-texto{
+  width: 100%;
+}
+
+.color-modal{
+  background-color: var(--color-tarjeta);
+  color: var(--color-texto-oscuro);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+nav {
+  /* Color de respaldo (fallback) */
+  background: #e87523;
+  
+  /* Tu degradado específico */
+  background: linear-gradient(90deg, rgba(232, 117, 35, 1) 11%, rgba(240, 223, 74, 1) 78%);
+}
+
+.navbar-brand {
+    font-weight: 800; /* Mucho más peso */
+    font-size: 1.6rem;
+    letter-spacing: 1px; /* Aire entre letras */
+    text-transform: uppercase; /* Opcional, le da autoridad */
+    color: var(--color-texto-claro) !important;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05); /* Pequeño efecto al pasar el mouse */
+}
+
+.hover-naranja {
+    transition: color 0.3s ease; /* Esto hace que el cambio sea suave */
+}
+
+.hover-naranja:hover {
+    color: var(--color-llamado-accion) !important; /* O usa el código #E65F19 */
+}
+
+.hover-blanco{
+transition: color 0.3s ease; /* Esto hace que el cambio sea suave */
+
+}
+
+.hover-blanco:hover {
+    color: var(--color-tarjeta)
+}
+
+.btn-naranja{
+  btn{
+    color: #E65F19;
+  }
+}
+.largo-texto{
+  width: 100%;
+}
