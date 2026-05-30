@@ -293,3 +293,50 @@ nav {
 .largo-texto {
   width: 100%;
 }
+
+.fondo {
+    /* rgba(0, 0, 0, 0.4) 
+
+    */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                      url('../img/fondo.png');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card-glass {
+    background-color: rgba(255, 255, 255, 0.93) !important;
+    backdrop-filter: blur(8px);
+}
+
+.zoom-img {
+    transition: transform 0.4s ease-in-out;
+}
+.zoom-img:hover {
+    transform: scale(1.07);
+}
+
+.card-hover {
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn[style*="background-color: #008080"]:hover {
+    background-color: #e65c00 !important;
+}
+
+.ad-hover {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.ad-hover:hover {
+    transform: scale(1.03);
+    filter: contrast(1.08) brightness(1.03);
+}
+
+
