@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>CheckInMundo</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+    <nav class="navbar nav-bg navbar-expand-lg">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand">ArgenTripNA</a>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#opcionesMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="opcionesMenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-outline-success active"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-outline-success"
+                  href="./pages/galeria.html"
+                  >Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-outline-success"
+                  href="./pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-outline-success"
+                  href="./pages/nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-success" href="./pages/login.html"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-5"></main>
+
+    <footer class="bg-dark text-light py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5 class="text-warning">CheckInMundo</h5>
+            <p>
+              Tu guía definitiva para explorar los destinos más increíbles del
+              mundo. Viaja, explora y vive experiencias únicas.
+            </p>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <h5 class="text-warning">Explora</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="../pages/galeria.html"
+                  class="text-light text-decoration-none"
+                  >Galería</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/nosotros.html"
+                  class="text-light text-decoration-none"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/contacto.html"
+                  class="text-light text-decoration-none"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <h5 class="text-warning">Suscríbete</h5>
+            <p class="small">
+              Recibe tips de viajes directamente en tu correo.
+            </p>
+            <button class="btn btn-outline-success btn-sm" data-bs-toggle="modal" data-bs-target="#ModalSuscripcion">
+              <i class="bi bi-play-fill">Suscribirme</i>
+            </button>
+          </div>
+        </div>
+
+        <hr class="border-secondary" />
+
+        <div class="text-center small">
+          &copy; 2026 ArgenTripNA - Todos los derechos reservados.
+        </div>
+      </div>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Destinos Turísticos</title>
+  </head>
+  <body>
+    <main>
+      <div
+        class="modal fade"
+        id="ModalSuscripcion"
+        tabindex="-1"
+        aria-labelledby="ModalSuscripcionLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="ModalSuscripcionLabel">
+                Suscribirse a ArgenTripNa
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container pb-1 pt-1">
+                <label class="largo-texto" for="usuario"
+                  >Nombre de Usuario *</label
+                >
+                <input
+                  type="text"
+                  minlength="2"
+                  maxlength="30"
+                  placeholder="Ej:Alex4510"
+                  required
+                  id="usuario"
+                />
+              </div>
+              <div class="container pb-1 pt-1">
+                <label class="largo-texto" for="email">Mail *</label>
+                <input
+                  type="email"
+                  placeholder="Ej: Alex1090@gmail.com"
+                  required
+                  id="email"
+                />
+              </div>
+              <div class="container">
+                <label class="largo-texto" for="Contraseña">Contraseña *</label>
+                <input
+                  type="password"
+                  minlength="2"
+                  maxlength="50"
+                  placeholder="*************"
+                  id="Contraseña"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary mt-2">
+                Suscribirse
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
