@@ -2,16 +2,22 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Galeriablog" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="../index.html" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../pages/contacto.html" />
     <meta name="author" content="Hernan Evis" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Principal - ArgenTripNA</title>
   </head>
-  <body>
-    <nav class="navbar nav-bg navbar-expand-lg">
+    <body class="fondo">
+    <header class="sticky-top">
+      <nav class="navbar nav-bg navbar-expand-lg">
         <div class="container">
-          <a href="../index.html" class="navbar-brand">ArgenTripNA</a>
+          <a href="./index.html" class="navbar-brand">ArgenTripNA</a>
           <button
             class="navbar-toggler"
             data-bs-toggle="collapse"
@@ -50,7 +56,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link btn btn-outline-success hover-blanco" href="./login.html"
+                <a class="nav-link btn btn-outline-success hover-blanco" href="./pages/login.html"
                   >Login</a
                 >
               </li>
@@ -59,10 +65,116 @@
         </div>
       </nav>
     </header>
-
-    <main class="container my-5"></main>
-
-    <footer class="bg-dark text-light py-4 mt-5">
+    <main>
+    <section>
+      <h2>Galeria de Fotos de America</h2>
+      <p>
+        ¿Preparando tu próximo viaje por Argentina o buscando un poco de
+        inspiración? ¡Llegaste al lugar correcto! Acá te compartimos nuestras
+        mejores capturas recorriendo el país de punta a punta. Elegí la región
+        que quieras explorar y empezá a viajar con los ojos.
+      </p>
+    </section>
+    <section class="galeria">
+      <figure>
+        <img
+          src="../img/cerro de los siete colores.jpg.jpeg"
+          alt="jujuy"
+          loading="lazy"
+        />
+        <figcaption>
+          <h5 class="card-text">Cerro de los Siete Colores, Jujuy</h5>
+          <cite title="source title"
+            >Paisajes que parecen de otro planeta, peñas y el mítico Cerro de
+            los Siete Colores pintado a mano. ¡Traé memoria de sobra en la
+            cámara!</cite
+          >
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="../img/tucuman.jpg.jpeg" alt="tucuman" loading="lazy" />
+        <figcaption>
+          <h5 class="card-text">Tucuman</h5>
+          <cite title="source title"
+            >El jardín de la república. Empanadas con limón, verde por todos
+            lados y una historia enorme concentrada en un lugar re mil
+            cálido.</cite
+          >
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="../img/mendoza.jpg.jpeg" alt="mendoza" loading="lazy" />
+        <figcaption>
+          <h5 class="card-text">Mendoza</h5>
+          <cite title="source title"
+            >Tierra de buen vino, montañas gigantescas y el plan perfecto para
+            relajar con una copa en la mano al pie de la Cordillera.</cite
+          >
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          src="../img/buenos aires.jpg.jpeg"
+          class="img.alta"
+          alt="buenos aires"
+          loading="lazy"
+        />
+        <figcaption>
+          <h5 class="card-text">Buenos Aires</h5>
+          <cite title="source title"
+            >El pulso urbano que nunca duerme. Luz, teatros, cafés históricos,
+            bondis a mil y una sobredosis de cultura en cada esquina.</cite
+          >
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="../img/necochea.jpg.jpeg" alt="necochea" loading="lazy" />
+        <figcaption>
+          <h5 class="card-text">Necochea</h5>
+          <cite title="source title"
+            >Playas gigantescas, médanos para aventurarse y el ruido del mar
+            ideal para clavar unos mates eternos viendo el atardecer.</cite
+          >
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="../img/bariloche.jpg.jpeg" alt="bariloche" loading="lazy" />
+        <figcaption>
+          <h5 class="card-text">Bariloche</h5>
+          <cite title="Source Title">
+            Lagos turquesas, montañas imponentes y una cantidad peligrosa de
+            chocolate artesanal por metro cuadrado. El clásico que nunca
+            falla.</cite
+          >
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          src="../img/san martin de los andes.jpg.jpeg"
+          alt="mendoza"
+          loading="lazy"
+        />
+        <figcaption>
+          <h5 class="card-text">San Martin de los Andes, Neuquen</h5>
+          <cite title="source title"
+            >La magia del sur profundo. Rutas escénicas de película, bosques de
+            cuentos y rincones patagónicos que te van a volar la cabeza.</cite
+          >
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="../img/brasil.jpg.jpeg" alt="brasil" loading="lazy" />
+        <figcaption>
+          <h5 class="card-text">Brasil</h5>
+          <cite title="source title"
+            >La escapada internacional obligatoria. Caipirinha, agua cálida,
+            "tudo bem" y esa vibra playera que te hace olvidar de todos los
+            problemas.</cite
+          >
+        </figcaption>
+      </figure>
+    </section></main>
+     <footer class="bg-dark text-light py-4 mt-5">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-3">
@@ -175,6 +287,7 @@
                   minlength="2"
                   maxlength="50"
                   placeholder="*************"
+                  required
                   id="Contraseña"
                 />
               </div>
@@ -186,7 +299,5 @@
         </div>
       </div>
     </footer>
-    <!-- Salimos con ../ para encontrar el JS -->
-    <script src="../js/bootstrap.min.js"></script>
-  </body>
+     <script src="../js/bootstrap.min.js"></script>
 </html>
