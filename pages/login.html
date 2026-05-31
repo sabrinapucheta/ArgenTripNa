@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Hernan Evis" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Login - ArgenTripNA</title>
+    <title>Principal - ArgenTripNA</title>
   </head>
   <body>
     <header class="sticky-top">
@@ -24,34 +23,34 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a
-                  class="nav-link btn btn-outline-success active"
-                  href="../index.html"
+                  class="nav-link btn btn-outline-success hover-blanco"
+                  href="../pages/entradaBlog.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link btn btn-outline-success"
-                  href="./galeria.html"
+                  class="nav-link btn btn-outline-success hover-blanco"
+                  href="../pages/galeria.html"
                   >Galeria</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link btn btn-outline-success"
-                  href="./contacto.html"
+                  class="nav-link btn btn-outline-success hover-blanco"
+                  href="../pages/contacto.html"
                   >Contacto</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link btn btn-outline-success"
+                  class="nav-link btn btn-outline-success hover-blanco"
                   href="./nosotros.html"
                   >Nosotros</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link btn btn-outline-success" href="./login.html"
+                <a class="nav-link btn btn-outline-success active" href="./login.html"
                   >Login</a
                 >
               </li>
@@ -61,7 +60,27 @@
       </nav>
     </header>
 
-    <main class="container my-5"></main>
+    <main class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-4 shadow text-bg-warning">
+            <h2 class="text-center mb-4 text-dark">Bienvenido Viajero</h2>
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="viajero@ejemplo.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="password" required>
+              </div>
+           <button type="submit" class="btn btn-warning w-100 transition-button">Ingresar</button>
+            </form>
+            <div class="text-center mt-3">
+              <a href="#" class="text-decoration-none">¿Olvidaste tu contraseña?</a>
+    </main>
+    
+    
 
     <footer class="bg-dark text-light py-4 mt-5">
       <div class="container">
@@ -80,21 +99,21 @@
               <li>
                 <a
                   href="../pages/galeria.html"
-                  class="text-light text-decoration-none"
+                  class="text-light text-decoration-none hover-naranja"
                   >Galería</a
                 >
               </li>
               <li>
                 <a
                   href="../pages/nosotros.html"
-                  class="text-light text-decoration-none"
+                  class="text-light text-decoration-none hover-naranja"
                   >Sobre Nosotros</a
                 >
               </li>
               <li>
                 <a
                   href="../pages/contacto.html"
-                  class="text-light text-decoration-none"
+                  class="text-light text-decoration-none hover-naranja"
                   >Contacto</a
                 >
               </li>
@@ -102,10 +121,15 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <h5 class="text-warning">Suscríbete</h5>
+            <h5 class="tex">Suscríbete</h5>
             <p class="small">
               Recibe tips de viajes directamente en tu correo.
             </p>
+            <a
+              href="../pages/suscibirse.html"
+              class="btn btn-outline-success hover-blanco"
+              >Suscribirme</a
+            >
             <button class="btn btn-outline-success btn-sm" data-bs-toggle="modal" data-bs-target="#ModalSuscripcion">
               <i class="bi bi-play-fill">Suscribirme</i>
             </button>
@@ -114,13 +138,10 @@
 
         <hr class="border-secondary" />
 
-        <div class="text-center small">
+        <div class="text-center small  text-warning">
           &copy; 2026 ArgenTripNA - Todos los derechos reservados.
         </div>
       </div>
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <title>Destinos Turísticos</title>
   </head>
   <body>
     <main>
@@ -184,7 +205,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </main>
     <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>

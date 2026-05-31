@@ -164,6 +164,53 @@
     text-align: center;
   }
 }
+/* estilos pagina entradaBlog */
+.bg-main {
+  background-color: var(--color-acento);
+}
+.color-title {
+  color: var(--color-principal);
+}
+.form-eb {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.input-eb,
+.textarea-eb,
+.button-eb,
+.select-eb {
+  background-color: var(--color-principal);
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+select,
+button {
+  width: 106%;
+}
+.comentarios-eb {
+    border: 1px solid var(--color-principal);
+    padding: 10px;
+    margin: 10px;
+}
+
+/* estilos pagina error */
+
+.animacion-img-404 {
+  animation: expansiva 3s linear 1;
+}
+@keyframes expansiva {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
 
 .div-nosotros {
   border-radius: 10px;
@@ -182,29 +229,37 @@
   line-height: 30px;
 }
 
-.largo-texto{
+.largo-texto {
   width: 100%;
 }
 
-.color-modal{
+.color-modal {
   background-color: var(--color-tarjeta);
   color: var(--color-texto-oscuro);
 }
-/* Tipografia Josefin Sans  */
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  background: #FBF7EE;
   
 }
-h1{
+h2{
   padding: 15px;
   text-align: center;
-  background: #FBF7EE;
-  font-family: Josefin sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+p{
+  padding: 15px;
+  font-family: Josefin sans-serif;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
 .galeria {
-  background: #FBF7EE;
+  
   padding: 20px;
   margin-top: 15px;
   display: flex;
@@ -243,50 +298,117 @@ figure {
      filter: drop-shadow(0 0 10px #00878A);
   }
 }
-.img.alta{ 
-  height: 250px;
-  object-fit: cover;
-  object-position: center;
-} 
 
-@media (width >= 768px) { /*dispositivo medianos*/
-  /* aqui puedo crear una clase, o selc. de etiqueta o id */
-  .galeria {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  figure {
-    width: calc(33.33% - 15px);
-  }
-  figcaption{
-    height: 170px;
-  }
+nav {
+  /* Color de respaldo (fallback) */
+  background: #e87523;
+
+  /* Tu degradado específico */
+  background: linear-gradient(
+    90deg,
+    rgba(232, 117, 35, 1) 11%,
+    rgba(240, 223, 74, 1) 78%
+  );
 }
 
-/* media querie para dispositivos grandes */
-@media screen and (width >= 1024px) {
-  .galeria {
-    justify-content: center;
-  }
-  figure {
-    width: calc(25% - 15px);
-  }
+.navbar-brand {
+  font-weight: 800; /* Mucho más peso */
+  font-size: 1.6rem;
+  letter-spacing: 1px; /* Aire entre letras */
+  text-transform: uppercase; /* Opcional, le da autoridad */
+  color: var(--color-texto-claro) !important;
+  transition: transform 0.3s ease;
 }
 
-@media print {
-  .galeria {
-    flex-direction: row; 
-    flex-wrap: wrap;
-  }
-
-  figure {
-    width: calc(33.33% - 15px);
-  }
-  body {
-    color:#262626;
-  }
+.navbar-brand:hover {
+  transform: scale(1.05); /* Pequeño efecto al pasar el mouse */
 }
 
-.largo-texto{
+.hover-naranja {
+  transition: color 0.3s ease; /* Esto hace que el cambio sea suave */
+}
+
+.hover-naranja:hover {
+  color: var(--color-llamado-accion) !important; /* O usa el código #E65F19 */
+}
+
+.hover-blanco {
+  transition: color 0.3s ease; /* Esto hace que el cambio sea suave */
+}
+
+.hover-blanco:hover {
+  color: var(--color-tarjeta);
+}
+
+.btn-naranja {
+  btn {
+    color: #e65f19;
+  }
+}
+.largo-texto {
   width: 100%;
 }
+
+.fondo {
+    /* rgba(0, 0, 0, 0.4) 
+
+    */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                      url('../img/fondo.png');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card-glass {
+    background-color: rgba(255, 255, 255, 0.93) !important;
+    backdrop-filter: blur(8px);
+}
+
+.zoom-img {
+    transition: transform 0.4s ease-in-out;
+}
+.zoom-img:hover {
+    transform: scale(1.07);
+}
+
+.card-hover {
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn[style*="background-color: #008080"]:hover {
+    background-color: #e65c00 !important;
+}
+
+.ad-hover {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.ad-hover:hover {
+    transform: scale(1.03);
+    filter: contrast(1.08) brightness(1.03);
+}
+
+.body-login{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.btn-warning:hover {
+    background-color: #fd7e14 !important; 
+    border-color: #fd7e14 !important;
+    color: white !important; 
+}
+
+.transition-button {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+
